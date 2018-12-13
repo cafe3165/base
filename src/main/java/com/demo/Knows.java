@@ -59,7 +59,7 @@ public class Knows
             System.out.println("query node name is " + node.getProperty("name"));
 
             node.setProperty("name", "My name");
-            node.setProperty("sex", "男");
+            node.setProperty("sex", "女");
 
             System.out.println("edit node name is " + node.getProperty("name"));
             System.out.println("add property sex is " + node.getProperty("sex"));
